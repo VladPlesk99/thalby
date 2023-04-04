@@ -21,10 +21,31 @@ header .logo {
 header .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 6px;
 }
 
 header .container ul {
+  display: flex;
+  align-items: center;
   list-style: none;
+}
+
+header nav ul li {
+  margin-right: 28px;
+}
+
+header nav ul li a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-decoration: none;
+  color: #1c1b1b;
+}
+
+.logos_right li {
+  margin-right: 26px;
 }
 
 .main_banner {
@@ -64,7 +85,7 @@ header .container ul {
 .face_img {
   position: absolute;
   top: 9px;
-  right: 60px;
+  right: 17%;
 }
 
 .white_guides {
