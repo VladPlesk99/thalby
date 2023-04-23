@@ -48,6 +48,8 @@ header nav ul li a {
   margin-right: 26px;
 }
 
+/* Section Main_banner */
+
 .main_banner {
   background: #f0efeb;
   border-radius: 0px;
@@ -88,6 +90,8 @@ header nav ul li a {
   right: 18%;
 }
 
+/* Section White_guides */
+
 .white_guides {
   background: #ffffff;
   border-radius: 0px;
@@ -96,8 +100,6 @@ header nav ul li a {
 }
 
 .white_guides h2 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -118,5 +120,68 @@ header nav ul li a {
   font-size: 20px;
   line-height: 23px;
   text-align: center;
+  color: #000000;
+}
+
+/* Section Best */
+
+.best {
+  padding-top: 88px;
+  padding-bottom: 248px;
+}
+
+.best .container {
+  max-width: 1064px;
+  margin: auto;
+}
+
+.best h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 52px;
+  color: #000000;
+}
+
+.best .cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.best .cards article {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.best .cards article p {
+  margin-top: 20px;
+}
+
+.thalby_text {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  max-width: 180px;
+  display: inline-block;
+  text-align: center;
+  color: #000000;
+}
+.money {
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.best .cards article a {
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration-line: underline;
   color: #000000;
 }

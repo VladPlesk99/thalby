@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="images/Rectangle (1).svg">
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/styles.css">
 
 </head>
@@ -48,42 +50,78 @@
 </header>
 <main>
 
-  <section class="main_banner">
-    <div class="container">
-      <h1>Fall deeper in love
-        <br>
-        with
-        <br>
-        humanity.
-      </h1>
-      <p>Get to know the world through our concise,
-        <br>
-        informative and inspiring guides.
-      </p>
-      <a href="#">Shop Now</a>
-    </div>
+  <body>
+    <section class="main_banner">
+      <div class="container">
+        <h1>Fall deeper in love
+          <br>
+          with
+          <br>
+          humanity.
+        </h1>
+        <p>Get to know the world through our concise,
+          <br>
+          informative and inspiring guides.
+        </p>
+        <a href="#">Shop Now</a>
+      </div>
 
-    <img src="images/faces.jpg" class="face_img" alt="faces">
+      <img src="images/faces.jpg" class="face_img" alt="faces">
 
-  </section>
-  <section class="white_guides">
-    <div class="container">
+    </section>
 
-      <h2>Our guides explain countries and cultures.</h2>
-      <p class="text">Are you curious about the world around you? Our guides are for smart
-        <br>
-        global citizens, world travelers and engaged residents who want to gain
-        <br>
-        a deeper understanding of the cultures and societies they care about.
-      </p>
-      <p>Available as ebooks here and on Amazon.</p>
-    </div>
-  </section>
+    <section class="white_guides">
+      <div class="container">
+
+        <h2>Our guides explain countries and cultures.</h2>
+        <p class="text">Are you curious about the world around you? Our guides are for smart
+          <br>
+          global citizens, world travelers and engaged residents who want to gain
+          <br>
+          a deeper understanding of the cultures and societies they care about.
+        </p>
+        <p>Available as ebooks here and on Amazon.</p>
+      </div>
+
+      <section class="best">
+        <div class="container">
+          <h2>Our best sellers</h2>
+          <div class="cards owl-carousel">
+            <article>
+              <img src="images/man.jpg" alt="man_logo">
+              <p class="thalby_text">
+                Thalby Guide to French Culture and Heritage
+              </p>
+              <p class="money">usd 6.99</p>
+              <a href="#">Add to cart</a>
+            </article>
+            <article>
+              <img src="images/girl.jpg" alt="girl_logo">
+              <p class="thalby_text">
+                Thalby Guide to French People and Society
+              </p>
+              <p class="money">usd 6.99</p>
+              <a href="#">Add to cart</a>
+            </article>
+            <article>
+              <img src="images/woman.jpg" alt="man_logo">
+              <p class="thalby_text">
+                Thalby Guide to German Culture and Heritage
+              </p>
+              <p class="money">usd 6.99</p>
+              <a href="#">Add to cart</a>
+            </article>
+
+          </div>
+        </div>
+      </section>
 
 
 </main>
-
-<body>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"
+  integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/script.js"></script>
 </body>
 
 </html>
