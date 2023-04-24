@@ -185,3 +185,31 @@ header nav ul li a {
   text-decoration-line: underline;
   color: #000000;
 }
+
+.owl-nav .owl-prev {
+  position: absolute;
+  left: -66px;
+  top: 14px;
+  width: 50px;
+  height: 50px;
+  background-color: red !important;
+}
+
+.owl-nav .owl-next {
+  position: absolute;
+  right: -66px;
+  top: 14px;
+  width: 50px;
+  height: 50px;
+  background-color: red !important;
+}
+
+.owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+
+  border-radius: 50%;
+  margin: 5px;
+  background-color: black;
+}
