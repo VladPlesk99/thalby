@@ -237,13 +237,13 @@ header nav ul li a {
 }
 
 .people .container img {
-  margin-right: 50px;
   width: 385px;
   height: 525px;
+  margin-right: 50px;
 }
 
 .people_text {
-  text-align: left;
+  text-align: center;
 }
 
 .people_text h2 {
