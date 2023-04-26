@@ -222,3 +222,49 @@ header nav ul li a {
 .owl-dots .owl-dot.active span {
   background-color: blue;
 }
+
+.people {
+  padding-top: 76px;
+  padding-bottom: 51px;
+  max-width: 100%;
+  background: rgba(204, 204, 204, 0.3);
+}
+
+.people .container {
+  max-width: 1064px;
+  margin: auto;
+  display: flex;
+}
+
+.people .container img {
+  margin-right: 50px;
+  width: 385px;
+  height: 525px;
+}
+
+.people_text {
+  text-align: left;
+}
+
+.people_text h2 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 31px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.people_text p {
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 40px;
+  max-width: 498px;
+  color: #000000;
+}
+
+.people_text a {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+}
