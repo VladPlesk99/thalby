@@ -27,13 +27,14 @@ header .container {
 }
 
 header .container ul {
-  display: flex;
+  display: inline-block;
   align-items: center;
   list-style: none;
 }
 
 header nav ul li {
   margin-right: 28px;
+  display: inline-block;
 }
 
 header nav ul li a {
@@ -41,11 +42,13 @@ header nav ul li a {
   font-size: 16px;
   line-height: 26px;
   text-decoration: none;
+
   color: #1c1b1b;
 }
 
 .logos_right li {
   margin-right: 15px;
+  z-index: 100;
 }
 
 /* Section Main_banner */
@@ -388,6 +391,7 @@ header nav ul li a {
 }
 
 .logo {
-  position: relative;
   z-index: 100;
+  position: relative;
+  top: 20px;
 }
