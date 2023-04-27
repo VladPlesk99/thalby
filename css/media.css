@@ -18,6 +18,11 @@
     width: 100%;
     text-align: center;
   }
+
+  header nav .nav__content ul {
+    display: block;
+  }
+
   .nav__list-item {
     position: relative;
     display: block;
