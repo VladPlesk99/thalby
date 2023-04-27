@@ -20,7 +20,6 @@ body {
 ================================================== */
 
 .cd-header {
-  position: fixed;
   background-color: white;
   width: 100%;
   top: 0;
@@ -140,7 +139,6 @@ body {
 
 .nav__list {
   position: relative;
-  flex-direction: column;
   padding: 0;
   margin: 0;
   z-index: 2;

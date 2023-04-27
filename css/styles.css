@@ -27,14 +27,13 @@ header .container {
 }
 
 header .container ul {
-  display: inline-block;
+  display: flex;
   align-items: center;
   list-style: none;
 }
 
 header nav ul li {
   margin-right: 28px;
-  display: inline-block;
 }
 
 header nav ul li a {
@@ -48,7 +47,6 @@ header nav ul li a {
 
 .logos_right li {
   margin-right: 15px;
-  z-index: 100;
 }
 
 /* Section Main_banner */
