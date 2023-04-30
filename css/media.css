@@ -94,4 +94,17 @@
     left: 0;
     width: 100%;
   }
+
+  .face_img {
+    display: none;
+  }
+
+  .main_banner .container h1 {
+    text-align: center;
+  }
+
+  .main_banner .container p {
+    text-align: center;
 }
+
+
