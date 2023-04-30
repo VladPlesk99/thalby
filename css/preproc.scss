@@ -9,10 +9,7 @@ $main_font: "Roboto", sans-serif;
 $main_color: #000000;
 
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
-  font-family: $main_font !important;
   font-style: normal;
   font-weight: 400;
 }
@@ -46,6 +43,7 @@ header {
         margin-right: 28px;
         a {
           font-weight: 700;
+          font-family: $main_font;
           font-size: 16px;
           line-height: 26px;
           text-decoration: none;
@@ -54,6 +52,10 @@ header {
       }
     }
   }
+}
+
+.body {
+  font-family: $main_font;
 }
 
 .container {
