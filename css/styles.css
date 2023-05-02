@@ -83,6 +83,7 @@ footer .icons li {
 }
 
 .right_first {
+  display: flex;
   margin-bottom: 12px;
 }
 
