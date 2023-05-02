@@ -1,4 +1,4 @@
-/* .dots {
+.dots {
   max-width: 100%;
   padding-top: 190px;
   padding-bottom: 290px;
@@ -9,7 +9,10 @@
   margin: auto;
 }
 
-.dots p {
+.dots h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -17,17 +20,92 @@
   color: #000000;
 }
 
-.first {
-  background: #21f7ec;
-  border-radius: 35px;
+.dots .rounds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
 }
 
-.rounds {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.dots .rounds article {
+  width: 33%;
+}
+
+.dots .rounds p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 111px;
+  color: #000000;
+}
+
+.dots .rounds article img {
+  margin-bottom: 25px;
 }
 
 .features {
   width: 33%;
-} */
+}
+
+.dots h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 102px;
+  color: #000000;
+}
+
+footer {
+  background-color: #020202;
+  padding-top: 51px;
+}
+
+footer .container {
+  max-width: 1064px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .icons {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 45px;
+}
+footer .icons li {
+  margin-right: 23px;
+}
+
+.right_first {
+  margin-bottom: 12px;
+}
+
+.right_first li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+footer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.upper {
+  text-transform: uppercase;
+}
