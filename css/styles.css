@@ -81,6 +81,12 @@
   position: relative;
   top: -178px;
   text-align: center;
+  max-width: 248px;
+}
+
+.grey article img {
+  position: relative;
+  right: 18px;
 }
 
 .grey article h5 {
@@ -89,10 +95,8 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
-  margin-top: 35px;
+  padding-top: 35px;
   margin-bottom: 40px;
-  max-width: 248px;
-  max-height: 78px;
   letter-spacing: 0.6px;
   color: #000000;
 }
@@ -130,9 +134,34 @@
 form {
   display: flex;
   flex-wrap: wrap;
-  height: 145px;
-  width: 366px;
-  align-items: center;
+  justify-content: space-between;
+  max-width: 366px;
+  margin: auto;
+  text-align: center;
+}
+
+form .name {
+  width: 30%;
+}
+
+form .name .first_name {
+  width: 100%;
+}
+
+form .surname {
+  width: 30%;
+}
+
+form .name .second_name {
+  width: 100%;
+}
+
+form .email {
+  width: 100%;
+}
+
+form .email .email_text {
+  width: 100%;
 }
 
 .keepin_touch h2 {

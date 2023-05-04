@@ -345,6 +345,7 @@ header nav ul li a {
   max-width: 1064px;
   margin: auto;
   display: flex;
+  align-items: center;
 }
 .people .container img {
   width: 385px;
@@ -390,6 +391,7 @@ header nav ul li a {
   max-width: 1064px;
   margin: auto;
   display: flex;
+  align-items: center;
 }
 .culture .container h3 {
   font-weight: 700;
@@ -423,7 +425,10 @@ header nav ul li a {
   background: rgba(204, 204, 204, 0.3);
 }
 .german_power .container {
+  max-width: 1064px;
+  margin: auto;
   display: flex;
+  align-items: center;
 }
 .german_power .container img {
   margin-right: 50px;
@@ -456,4 +461,4 @@ header nav ul li a {
   z-index: 100;
   position: relative;
   top: 20px;
-} /*# sourceMappingURL=preproc.css.map */
+}/*# sourceMappingURL=preproc.css.map */
