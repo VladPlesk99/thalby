@@ -169,7 +169,7 @@ header nav ul li a {
   font-size: 16px;
   line-height: 26px;
   text-decoration: none;
-  color: #1c1b1b;
+  color: #000000;
 }
 
 .body {
@@ -565,4 +565,79 @@ header nav ul li a {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
+}
+
+.keepin_touch {
+  padding-top: 79px;
+  padding-bottom: 88px;
+  background: #ffffff;
+}
+.keepin_touch .container {
+  max-width: 1064px;
+  margin: auto;
+}
+
+footer {
+  background-color: #020202;
+  padding-top: 51px;
+  padding-bottom: 16px;
+}
+footer .container {
+  max-width: 1064px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .icons {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 45px;
+}
+footer .icons li {
+  margin-right: 23px;
+}
+footer .right_first {
+  display: flex;
+  position: relative;
+  left: 90px;
+}
+footer .right_first ul {
+  min-width: 215px;
+  margin-left: 25px;
+}
+footer .right_first .upper {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  margin-bottom: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+footer .right_first li {
+  margin-bottom: 12px;
+}
+footer .right_first li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #ffffff;
+}
+footer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }/*# sourceMappingURL=preproc.css.map */

@@ -1,14 +1,3 @@
-.keepin_touch {
-  padding-top: 79px;
-  padding-bottom: 88px;
-  background: #ffffff;
-}
-
-.keepin_touch .container {
-  max-width: 1064px;
-  margin: auto;
-}
-
 form {
   display: flex;
   flex-wrap: wrap;
@@ -19,19 +8,23 @@ form {
 }
 
 form .name {
-  width: 40%;
+  width: 49%;
 }
 
 form .name .first_text {
   width: 100%;
+  border: 1px solid #000000;
+  margin-bottom: 18px;
 }
 
 form .surname {
-  width: 40%;
+  width: 49%;
 }
 
 form .name .second_text {
   width: 100%;
+  border: 1px solid #000000;
+  margin-bottom: 18px;
 }
 
 form .email {
@@ -40,6 +33,12 @@ form .email {
 
 form .email .email_text {
   width: 100%;
+  border: 1px solid #000000;
+  margin-bottom: 16px;
+}
+
+.button {
+  margin: auto;
 }
 
 .keepin_touch h2 {
@@ -76,77 +75,4 @@ form .email .email_text {
   line-height: 16px;
   text-align: center;
   color: #ffffff;
-}
-
-footer {
-  background-color: #020202;
-  padding-top: 51px;
-  padding-bottom: 16px;
-}
-
-footer .container {
-  max-width: 1064px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-footer .icons {
-  display: flex;
-  align-items: flex-start;
-  margin-top: 45px;
-}
-footer .icons li {
-  margin-right: 23px;
-}
-
-footer .right_first {
-  display: flex;
-  position: relative;
-  left: 90px;
-}
-
-footer .right_first ul {
-  min-width: 215px;
-  margin-left: 25px;
-}
-
-footer .right_first .upper {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 23px;
-  margin-bottom: 36px;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-footer .right_first li {
-  margin-bottom: 12px;
-}
-
-footer .right_first li a {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-footer p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 23px;
-  text-align: center;
-  margin-top: 20px;
-  color: #ffffff;
-}
-
-.uppercase {
-  text-transform: uppercase;
 }
