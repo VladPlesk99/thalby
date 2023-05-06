@@ -214,8 +214,8 @@ header nav ul li a {
 
 .face_img {
   position: absolute;
+  left: calc(50% + 60px);
   top: 9px;
-  right: 18%;
 }
 
 .white_guides {
@@ -377,10 +377,6 @@ header nav ul li a {
   color: #000000;
 }
 
-.culture_text {
-  text-align: right;
-}
-
 .culture {
   padding-top: 76px;
   padding-bottom: 51px;
@@ -392,6 +388,9 @@ header nav ul li a {
   margin: auto;
   display: flex;
   align-items: center;
+}
+.culture .container .culture_text {
+  text-align: right;
 }
 .culture .container h3 {
   font-weight: 700;
@@ -576,6 +575,76 @@ header nav ul li a {
   max-width: 1064px;
   margin: auto;
 }
+.keepin_touch h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 9px;
+  color: #000000;
+}
+.keepin_touch p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 26px;
+  color: #000000;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 366px;
+  margin: auto;
+  text-align: center;
+}
+form .name {
+  width: 49%;
+}
+form .name .first_text {
+  width: 100%;
+  border: 1px solid #000000;
+  margin-bottom: 18px;
+  padding: 10px 0 10px 8px;
+}
+form .surname {
+  width: 49%;
+}
+form .surname .second_text {
+  width: 100%;
+  border: 1px solid #000000;
+  margin-bottom: 18px;
+  padding: 10px 0 10px 8px;
+}
+form .email {
+  width: 100%;
+}
+form .email_text {
+  width: 100%;
+  border: 1px solid #000000;
+  margin-bottom: 16px;
+  padding: 10px 0 10px 8px;
+}
+form .button {
+  background: #000000;
+  border: 1px solid #000000;
+  padding: 7px 23px 10px 23px;
+  border-radius: 100px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  margin: auto;
+}
 
 footer {
   background-color: #020202;
@@ -598,8 +667,6 @@ footer .icons li {
 }
 footer .right_first {
   display: flex;
-  position: relative;
-  left: 90px;
 }
 footer .right_first ul {
   min-width: 215px;

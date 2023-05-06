@@ -1,3 +1,109 @@
+@media only screen and (max-width: 1025px) {
+  .face_img {
+    left: calc(50% + 20px);
+  }
+
+  .people .container img {
+    padding-left: 20px;
+  }
+  .people_text p {
+    font-size: 28px;
+  }
+  .culture .container p {
+    font-size: 28px;
+  }
+
+  .power_text p {
+    font-size: 28px;
+  }
+
+  .german_power .container img {
+    padding-left: 20px;
+  }
+
+  .grey article h5 {
+    font-size: 20px;
+  }
+
+  .grey article p {
+    font-size: 16px;
+  }
+
+  .grey article a {
+    font-size: 15px;
+  }
+
+  footer .container {
+    margin: auto 20px;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .face_img {
+    left: calc(50% + 9px);
+  }
+  .main_banner h1 {
+    padding-left: 20px;
+    font-size: 55px;
+  }
+  .main_banner p {
+    padding-left: 20px;
+    font-size: 22px;
+  }
+
+  .main_banner a {
+    margin-left: 20px;
+  }
+  footer {
+    padding-right: 25px;
+  }
+  .power_text p {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 835px) {
+  .logo {
+    display: none;
+  }
+
+  .main_banner {
+    text-align: center;
+  }
+
+  .main_banner h1 {
+    font-size: 50px;
+  }
+
+  .face_img {
+    display: none;
+  }
+
+  .people_text p {
+    font-size: 21px;
+  }
+
+  .culture .container p {
+    font-size: 20px;
+  }
+
+  .power_text p {
+    font-size: 20px;
+  }
+
+  .dots h4 {
+    font-size: 30px;
+  }
+
+  .dots .rounds p {
+    font-size: 25px;
+  }
+
+  .dots h5 {
+    font-size: 30px;
+  }
+}
+
 @media only screen and (max-width: 769px) {
   .nav-but-wrap {
     display: inline-block;
@@ -105,6 +211,122 @@
 
   .main_banner .container p {
     text-align: center;
+  }
+
+  .people_text p {
+    font-size: 20px;
+  }
 }
 
+@media only screen and (max-width: 429px) {
+  .nav-but-wrap {
+    left: -47px;
+  }
+  header .container .logo {
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 16px;
+  }
+  .main_banner h1 {
+    font-size: 40px;
+  }
+  .main_banner p {
+    font-size: 18px;
+  }
+  .white_guides h2 {
+    font-size: 34px;
+    line-height: 38px;
+  }
+  .white_guides .text {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+  .white_guides p {
+    font-size: 18px;
+  }
 
+  .people {
+    padding-left: 20px;
+  }
+
+  .people .container {
+    display: block;
+  }
+
+  .people .container img {
+    padding-bottom: 10px;
+  }
+
+  .people_text {
+    text-align: center;
+  }
+
+  .people_text p {
+    font-size: 19px;
+  }
+
+  .culture .container {
+    display: block;
+  }
+
+  .culture .container .culture_text {
+    text-align: center;
+  }
+
+  .culture .container img {
+    padding-right: 45px;
+    padding-top: 15px;
+  }
+
+  .culture .container p {
+    font-size: 19px;
+  }
+
+  .best {
+    padding-top: 15px;
+    padding-bottom: 175px;
+  }
+
+  .dots h4 {
+    font-size: 26px;
+  }
+
+  .dots .rounds p {
+    font-size: 15px;
+  }
+
+  .dots h5 {
+    font-size: 19px;
+  }
+
+  .keepin_touch p {
+    font-size: 14px;
+  }
+
+  footer .right_first {
+    display: block;
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+}
+
+@media only screen and (max-width: 412px) {
+}
+
+@media only screen and (max-width: 390px) {
+}
+
+@media only screen and (max-width: 375px) {
+}
+
+@media only screen and (max-width: 360px) {
+}
+
+@media only screen and (max-width: 320px) {
+}
+
+@media only screen and (max-width: 280px) {
+}

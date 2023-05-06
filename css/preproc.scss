@@ -95,8 +95,8 @@ header {
 }
 .face_img {
   position: absolute;
+  left: calc(50% + 60px);
   top: 9px;
-  right: 18%;
 }
 
 .white_guides {
@@ -264,10 +264,6 @@ header {
   }
 }
 
-.culture_text {
-  text-align: right;
-}
-
 .culture {
   padding-top: 76px;
   padding-bottom: 51px;
@@ -278,6 +274,10 @@ header {
     margin: auto;
     display: flex;
     align-items: center;
+
+    .culture_text {
+      text-align: right;
+    }
     h3 {
       font-weight: 700;
       font-size: 36px;
@@ -462,6 +462,76 @@ header {
     max-width: 1064px;
     margin: auto;
   }
+  h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 9px;
+    color: #000000;
+  }
+  p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 26px;
+    color: #000000;
+  }
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 366px;
+  margin: auto;
+  text-align: center;
+  .name {
+    width: 49%;
+    .first_text {
+      width: 100%;
+      border: 1px solid #000000;
+      margin-bottom: 18px;
+      padding: 10px 0 10px 8px;
+    }
+  }
+  .surname {
+    width: 49%;
+    .second_text {
+      width: 100%;
+      border: 1px solid #000000;
+      margin-bottom: 18px;
+      padding: 10px 0 10px 8px;
+    }
+  }
+  .email {
+    width: 100%;
+  }
+  .email_text {
+    width: 100%;
+    border: 1px solid #000000;
+    margin-bottom: 16px;
+    padding: 10px 0 10px 8px;
+  }
+  .button {
+    background: #000000;
+    border: 1px solid #000000;
+    padding: 7px 23px 10px 23px;
+    border-radius: 100px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+  }
 }
 
 footer {
@@ -484,8 +554,8 @@ footer {
   }
   .right_first {
     display: flex;
-    position: relative;
-    left: 90px;
+    // position: relative;
+    // left: 90px;
     ul {
       min-width: 215px;
       margin-left: 25px;
