@@ -3,22 +3,16 @@
     left: calc(50% + 20px);
   }
 
-  .people .container img {
-    padding-left: 20px;
-  }
   .people_text p {
     font-size: 28px;
   }
+
   .culture .container p {
     font-size: 28px;
   }
 
   .power_text p {
     font-size: 28px;
-  }
-
-  .german_power .container img {
-    padding-left: 20px;
   }
 
   .grey article h5 {
@@ -80,15 +74,15 @@
   }
 
   .people_text p {
-    font-size: 21px;
+    font-size: 19px;
   }
 
   .culture .container p {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .power_text p {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .dots h4 {
@@ -107,6 +101,7 @@
 @media only screen and (max-width: 769px) {
   .nav-but-wrap {
     display: inline-block;
+    left: -40px;
   }
 
   .nav {
@@ -247,7 +242,7 @@
   }
 
   .people {
-    padding-left: 20px;
+    padding: 0 20px;
   }
 
   .people .container {
@@ -283,6 +278,19 @@
     font-size: 19px;
   }
 
+  .german_power {
+    padding: 0 20px;
+  }
+
+  .german_power .container {
+    display: block;
+  }
+
+  .german_power .container .power_text {
+    text-align: center;
+    padding-top: 15px;
+  }
+
   .best {
     padding-top: 15px;
     padding-bottom: 175px;
@@ -300,33 +308,215 @@
     font-size: 19px;
   }
 
+  .grey .face_articles {
+    display: block;
+  }
+
+  .grey .container article {
+    align-items: center;
+  }
+
+  .grey article {
+    margin: auto;
+    padding-bottom: 20px;
+  }
+
   .keepin_touch p {
     font-size: 14px;
   }
 
   footer .right_first {
     display: block;
-    margin-left: 40px;
+    margin-left: px;
+  }
+
+  footer .right_first .upper {
+    font-size: 12px;
+  }
+  footer .right_first li a {
+    font-size: 11px;
+  }
+  footer p {
+    font-size: 12px;
   }
 }
 
 @media only screen and (max-width: 414px) {
+  /*All good */
 }
 
 @media only screen and (max-width: 412px) {
+  /*All good */
 }
 
 @media only screen and (max-width: 390px) {
+  .people {
+    margin: auto;
+    padding: 0;
+  }
+
+  .culture .container img {
+    margin: auto;
+    padding: 0;
+  }
+
+  .german_power {
+    margin: auto;
+    padding: 0;
+  }
+
+  footer .right_first ul {
+    min-width: auto;
+  }
 }
 
 @media only screen and (max-width: 375px) {
+  .best h2 {
+    font-size: 30px;
+  }
+
+  header .container .logo {
+    left: 29px;
+  }
+
+  .people_text h3 {
+    font-size: 32px;
+  }
+
+  .people_text p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .culture_text h3 {
+    font-size: 32px;
+  }
+
+  .culture_text p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .german_power h3 {
+    font-size: 32px;
+  }
+
+  .german_power p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .dots h4 {
+    font-size: 23px;
+  }
+
+  .dots .rounds p {
+    font-size: 12px;
+  }
+
+  .dots h5 {
+    font-size: 17px;
+  }
 }
 
 @media only screen and (max-width: 360px) {
+  header .container .logo {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 320px) {
+  .people .container img {
+    display: none;
+  }
+
+  .culture .container img {
+    display: none;
+  }
+
+  .german_power .container img {
+    display: none;
+  }
+
+  .dots {
+    padding-top: 100px;
+  }
 }
 
 @media only screen and (max-width: 280px) {
+  .main_banner h1 {
+    font-size: 26px;
+    line-height: 45px;
+  }
+  .main_banner p {
+    font-size: 14px;
+  }
+  .main_banner a {
+    font-size: 14px;
+}
+
+.white_guides h2 {
+  font-size: 24px;
+}
+.people_text h3 {
+  font-size: 26px;
+}
+.people_text p {
+  font-size: 13px;
+  line-height: 25px;
+}
+.people_text a {
+  font-size: 14px;
+}
+
+.culture_text h3 {
+  font-size: 26px;
+}
+.culture_text p {
+  font-size: 13px;
+  line-height: 25px;
+}
+.culture_text a {
+  font-size: 14px;
+}
+
+.german_power h3 {
+  font-size: 26px;
+}
+.german_power p {
+  font-size: 13px;
+  line-height: 25px;
+}
+.german_power a {
+  font-size: 14px;
+}
+
+.dots h4 {
+  font-size: 20px;
+}
+
+.dots .rounds p {
+  font-size: 11px;
+}
+.dots h5 {
+  font-size: 13px;
+}
+
+.grey article h5 {
+  font-size: 17px;
+}
+
+.grey article p {
+  font-size: 14px;
+}
+
+.grey article a {
+  font-size: 13px;
+}
+.keepin_touch h2 {
+  font-size: 28px;
+}
+
+.keepin_touch p {
+  font-size: 12px;
 }

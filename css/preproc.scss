@@ -142,6 +142,7 @@ header {
   }
   .cards {
     justify-content: space-between;
+    width: 100%;
     article {
       margin-left: 10px;
       margin-right: 10px;
@@ -274,30 +275,6 @@ header {
     margin: auto;
     display: flex;
     align-items: center;
-
-    .culture_text {
-      text-align: right;
-    }
-    h3 {
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 42px;
-      margin-bottom: 31px;
-      color: $main_color;
-    }
-    p {
-      font-size: 36px;
-      line-height: 42px;
-      margin-bottom: 31px;
-      max-width: 513px;
-      color: $main_color;
-    }
-    a {
-      font-weight: 700;
-      font-size: 17px;
-      line-height: 20px;
-      color: $main_color;
-    }
     img {
       margin-left: 50px;
       width: 385px;
@@ -306,9 +283,34 @@ header {
   }
 }
 
+.culture_text {
+  text-align: right;
+  h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 31px;
+    color: $main_color;
+  }
+  p {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 31px;
+    max-width: 513px;
+    color: $main_color;
+  }
+  a {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: $main_color;
+  }
+}
+
 .german_power {
   padding-top: 76px;
   padding-bottom: 51px;
+  max-width: 100%;
   background: rgba(204, 204, 204, 0.3);
   .container {
     max-width: 1064px;
@@ -403,7 +405,6 @@ header {
 }
 
 .grey {
-  height: 480px;
   background: #f0f0f0;
   padding-bottom: 52px;
   .container {
